@@ -13,7 +13,7 @@ script:
 deploy:
   provider: heroku
   app: quiet-beach-77930
-  api_key: $(HEROKU_API_KEY)
+  api_key: $(heroku auth:token)
 
 
 
