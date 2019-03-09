@@ -105,4 +105,4 @@ Materiały
     :target: https://travis-ci.org/travis-ci/travis-web
 
 
-.. image:: <a href="https://www.statuscake.com" title="Website Uptime Monitoring"><img src="https://app.statuscake.com/button/index.php?Track=r3LxekBf9j&Days=1&Design=6" /></a>
+.. image:: https://app.statuscake.com/button/index.php?Track=r3LxekBf9j&Days=1&Design=6
