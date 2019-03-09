@@ -100,3 +100,6 @@ Materiały
 =========
 
 - https://virtualenvwrapper.readthedocs.io/en/latest/
+
+.. image:: https://travis-ci.org/travis-ci/travis-web.svg?branch=master
+    :target: https://travis-ci.org/travis-ci/travis-web
