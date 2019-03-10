@@ -13,6 +13,14 @@ test:
 	PYTHONPATH=. py.test  --verbose -s
 
 
+test_cov:
+	PYTHONPATH=. py.test --verbose -s --cov=. --cov-report xml
+
+
+test_xunit:
+	PYTHONPATH=. py.test -s --cov-report xml --junit-xml=test_result.xml
+
+
 docker_build:
 	docker build -t hello-world-printer .
 
@@ -32,3 +40,5 @@ docker_push: docker_build
 	docker tag hello-world-printer $(TAG); \
 	docker push $(TAG); \
 	docker logout;
+
+
