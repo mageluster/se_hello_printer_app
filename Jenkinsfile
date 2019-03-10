@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('Linter') {
+        stage('Lint') {
 	    steps {
 		    sh 'make lint'
 		  }
